@@ -5,7 +5,7 @@
     background-color: red;
     border: 2px solid red;
     animation-name: changeBgColor;
-    animation-duration:1000ms;
+    animation-duration:1500ms;
     
 }
 @keyframes changeBgColor{
@@ -13,25 +13,30 @@
         background-color:red ;
         top: 0;
         left: 0;
+        border: 2px solid red;
     }
     25%{
         background-color: orange;
         left: 0;
         top: 100px;
+        border: 2px solid orange;
     }
     50%{ 
         background-color: yellow;
         top: 100px;
         left: 100px;
+        border: 2px solid yellow;
     }
     75%{
         background-color: green;
         top:0;
         left: 100px;
+        border: 2px solid green;
     }
     100%{
         background-color:blue ;
         top: 0;
         left: 0;
+        border: 2px solid blue;
     }
     }
