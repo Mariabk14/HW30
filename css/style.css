@@ -6,7 +6,7 @@
     border: 2px solid red;
     animation-name: changeBgColor;
     animation-duration:1500ms;
-    
+    animation-iteration-count: infinite;
 }
 @keyframes changeBgColor{
     0%{
